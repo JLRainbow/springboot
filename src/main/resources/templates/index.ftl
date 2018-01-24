@@ -5,6 +5,7 @@
 <title>首页</title>
 </head>
 <body>
+	helloWorld
 	  ${name}
 	  <#if sex==1>
             男
