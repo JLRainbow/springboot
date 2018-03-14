@@ -20,7 +20,7 @@ public class HelloController {
 	 */
 	@RequestMapping("/exceptionTest")
 	public String exceptionTest() {
-		int i = 4 / 0;
+		int i = 5 / 0;
 		return "success";
 
 	}
